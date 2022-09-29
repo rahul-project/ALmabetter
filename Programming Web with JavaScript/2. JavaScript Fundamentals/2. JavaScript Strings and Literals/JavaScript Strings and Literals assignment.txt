@@ -1,0 +1,80 @@
+1
+To find the length of a string, use the built-in _______ property.
+Your Answer
+length
+Correct Answer
+length
+Justification
+None.
+2
+JavaScript strings are for ________ text.
+Your Answer
+Both A & B
+Correct Answer
+Both A & B
+Justification
+None.
+3
+Which one of the following is an ternary operator:
+Your Answer
+?
+Correct Answer
+?
+Justification
+None.
+4
+Which one of the following operator returns false if both values are equal?
+Your Answer
+All of the above
+Correct Answer
+!==
+Justification
+None.
+5
+_________ cannot accept negative indexes.
+Your Answer
+substring()
+Correct Answer
+substring()
+Justification
+None.
+6
+_______ extracts a part of a string and returns the extracted part in a new string.
+Your Answer
+slice()
+Correct Answer
+slice()
+Justification
+None.
+7
+JavaScript counts positions from?
+Your Answer
+0
+Correct Answer
+0
+Justification
+None.
+8
+Which one of the following operator is used to check weather a specific property exists or not:
+Your Answer
+in
+Correct Answer
+in
+Justification
+None.
+9
+Comparing two JavaScript objects always returns?
+Your Answer
+False
+Correct Answer
+False
+Justification
+None.
+10
+What we will get if we compare the "one" with "8" using the less than operator ("one"<8)?
+Your Answer
+False
+Correct Answer
+False
+Justification
+None.

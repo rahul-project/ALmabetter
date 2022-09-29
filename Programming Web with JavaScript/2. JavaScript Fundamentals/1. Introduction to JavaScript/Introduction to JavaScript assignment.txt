@@ -1,0 +1,90 @@
+1
+How can a datatype be declared to be a constant type?
+Your Answer
+const
+Correct Answer
+const
+Justification
+None.
+2
+Which of the following methods can be used to display data in some form using Javascript?
+Your Answer
+console.log()
+Correct Answer
+All of the above
+Justification
+None.
+3
+Upon encountering empty statements, what does the Javascript Interpreter do?
+Your Answer
+Ignores the statement
+Correct Answer
+Ignores the statement
+Justification
+None.
+4
+What will be the output of the following code snippet?
+```
+console.log(typeof(NaN));
+```
+Your Answer
+None of the above
+Correct Answer
+Number
+Justification
+None.
+5
+What is the output of the following code snippet?
+```
+console.log(NaN === NaN);
+```
+Your Answer
+True
+Correct Answer
+False
+Justification
+None.
+6
+Javascript is an _______ language?
+Your Answer
+Object - Oriented
+Correct Answer
+Object - Based
+Justification
+None.
+7
+What will be the output of the following code snippet?
+```
+a = 5 + "9";
+document.write(a);
+```
+Your Answer
+Compilation error
+Correct Answer
+59
+Justification
+None.
+8
+Which of the following keywords is used to define a variable in Javascript?
+Your Answer
+Both A & B
+Correct Answer
+Both A & B
+Justification
+None.
+9
+When an operator’s value is null, the typeof returned by the unary operator is:
+Your Answer
+Undefined
+Correct Answer
+Object
+Justification
+None.
+10
+What will be the output of the following code snippet? ``` var a = "AlmaBetter"; var result = a.substring(2, 4); document.write(result); ```
+Your Answer
+ma
+Correct Answer
+ma
+Justification
+None.

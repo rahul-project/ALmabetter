@@ -1,0 +1,258 @@
+1
+Functional Programming Uses Immutable data
+Your Answer
+Yes
+Correct Answer
+Yes
+Justification
+None.
+2
+Which method cancels the current request?
+Your Answer
+abort()
+Correct Answer
+abort()
+Justification
+None.
+3
+Which of the following is true for the fat-arrow function?
+Your Answer
+In arrow functions we do not have the concept of this keyword
+Correct Answer
+In arrow functions this keyword points to the scope in which that function is defined.
+Justification
+None.
+4
+Constructor can return a value
+Your Answer
+False
+Correct Answer
+False
+Justification
+None.
+5
+Consider the following JavaScript statement containing regular expressions and check if the pattern matches? var text = "testing: 1, 2, 3"; var pattern = /d+/g;
+Your Answer
+pattern.test(text)
+Correct Answer
+pattern.test(text)
+Justification
+None.
+6
+Functions are how many types?
+Your Answer
+2
+Correct Answer
+2
+Justification
+None.
+7
+Functional programming supports higher-order functions and lazy evaluation features.
+Your Answer
+True
+Correct Answer
+True
+Justification
+None.
+8
+What will be the output of the below code snippet? for(var i=0; i<4; i++){
+setTimeout(()=>{
+console.log(i)
+},1000)
+}
+Your Answer
+4 4 4 4
+Correct Answer
+4 4 4 4
+Justification
+None.
+9
+Why does the Node rely on event handlers?
+Your Answer
+APIs are asynchronous
+Correct Answer
+APIs are asynchronous
+Justification
+None.
+10
+How to define an anonymous function in javascript?
+Your Answer
+var anon = function() { }
+Correct Answer
+var anon = function() { }
+Justification
+None.
+11
+Which of the following are advantages of Functional Programming?
+Your Answer
+All of the above
+Correct Answer
+All of the above
+Justification
+None.
+12
+Which is possible when a derived class function has the same name and signature as its base class.
+Your Answer
+Function overriding
+Correct Answer
+Function overriding
+Justification
+None.
+13
+What are 2 native functions to run code asynchronously in JavaScript ?
+Your Answer
+setTimeout, setInterval
+Correct Answer
+setTimeout, setInterval
+Justification
+None.
+14
+The regular expression to match any one character not between the brackets is __________
+Your Answer
+[^…]
+Correct Answer
+[^…]
+Justification
+None.
+15
+What is the use of lodash / luxon libraries ?
+Your Answer
+All the above
+Correct Answer
+All the above
+Justification
+None.
+16
+What is a closure ?
+Your Answer
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).
+Correct Answer
+All of the above.
+Justification
+None.
+17
+What does the subexpression /java(script)?/ result in?
+Your Answer
+It matches “java” followed by the optional “script”
+Correct Answer
+It matches “java” followed by the optional “script”
+Justification
+None.
+18
+How to convert the below statement to the synchronous request?
+xhttp.open("GET", "info.php", true);
+Your Answer
+Convert the third parameter to "false"
+Correct Answer
+Convert the third parameter to "false"
+Justification
+None.
+19
+What are npm packages ?
+Your Answer
+A package is a directory containing arbitrary files and a file package.json at the top level that describes the package.
+Correct Answer
+A package is a directory containing arbitrary files and a file package.json at the top level that describes the package.
+Justification
+None.
+20
+What are anonymous function in javascript?
+Your Answer
+All of the above
+Correct Answer
+All of the above
+Justification
+None.
+21
+Functional programming languages are categorized into how many groups.
+Your Answer
+2
+Correct Answer
+2
+Justification
+None.
+22
+Which of following is shared structure of a set of similar objects
+Your Answer
+A Class
+Correct Answer
+A Class
+Justification
+None.
+23
+What is the most essential purpose of parentheses in regular expressions?
+Your Answer
+Define sub patterns within the complete pattern
+Correct Answer
+Define sub patterns within the complete pattern
+Justification
+None.
+24
+Choose the option below which is shown by function overriding
+Your Answer
+Polymorphism
+Correct Answer
+Polymorphism
+Justification
+None.
+25
+What is true about strict mode in JS ?
+Your Answer
+It applies to individual functions
+Correct Answer
+It applies to individual functions
+Justification
+None.
+26
+Which of the following is true in regards to normal function?
+Your Answer
+In normal functions this keyword represented the object that called the function, which could be the window, the document, a button or whatever.
+Correct Answer
+In normal functions this keyword represented the object that called the function, which could be the window, the document, a button or whatever.
+Justification
+None.
+27
+The method that performs the search-and-replace operation to strings for pattern matching is _______
+Your Answer
+replace()
+Correct Answer
+replace()
+Justification
+None.
+28
+What is the use or purpose of the package.json file ?
+Your Answer
+All the above
+Correct Answer
+All the above
+Justification
+None.
+29
+What's the output?
+let fs = require('fs');
+
+console.log('1');
+
+fs.readFile('test.txt', 'utf8', function(error, data) {
+if (error) {
+throw error;
+}
+
+console.log('2');
+});
+
+console.log('3');
+Your Answer
+132
+Correct Answer
+132
+Justification
+None.
+30
+The ‘$’ present in the RegExp object is called a ____________
+Your Answer
+meta character
+Correct Answer
+meta character
+Justification
+None.

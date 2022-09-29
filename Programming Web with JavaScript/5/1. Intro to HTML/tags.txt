@@ -1,0 +1,24 @@
+<!-- { -- https://www.w3schools.com/html/default.asp -- }
+HTML Tag	    Description of the Tag
+<abbr>	        Describes an abbreviation (acronyms)
+<address>	    Describes an address information
+<b>	            Specific text weight bold
+<caption>	    Define a table caption
+<code>	        Specifies computer code text
+<del>	        Specific text deleted in web document
+<dl>	        Define a definition list
+<dd>	        Defines a definition description in a definition list
+<fieldset>	    Defines a grouping of related form elements
+<i>	            Defines a italic format text
+<ins>	        Used to indicate text that is inserted into a page and indicates changes to a document.
+<legend>	    Used to add a caption (title) to a group of related form elements that are grouped together into the <fieldset> tag.
+<map>	        Defines an clickable image map.
+<q>	            Represents the short quotation.
+<s>	            Text display in strikethrough style.
+<samp>	        Represents text that should be interpreted as sample output from a computer program.
+<u>	            Defines a underline text.
+-->
+<!-- difference between website and webpage -->
+<!-- The webpage is a single document on the web using a unique URL while a website, 
+is a collection of multiple webpages in which information on a related topic or
+another subject is linked together under the same domain address -->

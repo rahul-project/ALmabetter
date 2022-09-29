@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms_1</title>
+  </head>
+  <body>
+    <h1>Creating a Form 1</h1>
+    <!-- action : Its value is the URL for the page on the server that will receive the information in the form when it is submitted. -->
+    <!-- method:  Forms can be sent using one of two methods: get or post. -->
+    <form action="http://www.myserver.com" method="get">
+      <p>This is where the form controls will appear.</p>
+      <h5>Creating First Text Field!</h5>
+      <label for="usernameID">Username</label>
+      <input type="text" name="username" id="usernameID" />
+      <br />
+      <br />
+      <label for="AgeID">Age</label>
+      <input type="number" name="age" id="AgeID." />
+      <br />
+      <br />
+      <label for="passwordID">Password</label>
+      <input type="password" name="password" id="passwordID" />
+      <br />
+      <br />
+      <label for="addressID">Address</label>
+      <textarea name="address" id="addressID" placeholder="address"></textarea>
+      <br />
+      <br />
+      <!-- radio buttons select any one make sure name should be same -->
+      <p>please select your gender</p>
+      <input type="radio" name="gender" value="female" />
+      Female
+      <input type="radio" name="gender" value="male" />
+      Male
+    </form>
+    <!-- New Form -->
+    <h2>HTML Forms 2</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <br />
+      <input
+        type="text"
+        id="fname"
+        name="userfname"
+        value="Rahul"
+        placeholder="First Name"
+      />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input
+        type="text"
+        id="lname"
+        name="userlname"
+        value="Mule"
+        placeholder="Last Name"
+      />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/action_page.php".
+    </p>
+    <p>Note that the form itself is not visible.</p>
+    <p>
+      Also note that the default width of text input fields is 20 characters.
+    </p>
+    <!-- New Form -->
+    <h2>HTML Forms 3</h2>
+    <h2>Radio Buttons</h2>
+    <p>Choose your favorite Web language:</p>
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label>
+      <br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label>
+      <br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+    </form>
+    <!-- New Form -->
+    <h2>HTML Forms 4</h2>
+    <h2>checkbox Buttons</h2>
+    <p>Choose multiple options:</p>
+    <p>
+      The
+      <strong>input type="checkbox"</strong>
+      defines a checkbox:
+    </p>
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1">I have a bike</label>
+      <br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2">I have a car</label>
+      <br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3">I have a boat</label>
+    </form>
+    <!-- New Form -->
+    <h2>HTML Forms 5</h2>
+    <h2>The name Attribute</h2>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" value="John" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/action_page.php".
+    </p>
+
+    <p>
+      Notice that the value of the "First name" field will not be submitted,
+      because the input element does not have a name attribute.
+    </p>
+    <p>
+      name Attribute is important while submitting a data to the server then
+      server store that data in to that specific location of name
+    </p>
+
+    <table border="4">
+      <caption>
+        The
+        <code style="color: red;">input</code>
+        Element
+      </caption>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>input type="text"</th>
+          <td>Displays a single-line text input field</td>
+        </tr>
+        <tr>
+          <th>input type="radio"</th>
+          <td>Displays a radio button (for selecting one of many choices)</td>
+        </tr>
+        <!-- additional rows as above -->
+        <tr>
+          <th>input type="checkbox"</th>
+          <td>
+            Displays a checkbox (for selecting zero or more of many choices)
+          </td>
+        </tr>
+        <tr>
+          <th>input type="submit"</th>
+          <td>Displays a submit button (for submitting the form)</td>
+        </tr>
+        <tr>
+          <th>input type="button"</th>
+          <td>Displays a clickable button</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

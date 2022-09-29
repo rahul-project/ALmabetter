@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html_II-2</title>
+  </head>
+  <body>
+    <!-- scope for columns and rows you should mention it -->
+    <table border="4">
+      <caption>class Routine</caption>
+      <tr>
+        <th>---</th>
+        <th scope="col">12 pm</th>
+        <th scope="col">1 pm</th>
+        <th scope="col">2 pm</th>
+      </tr>
+      <tr>
+        <th scope="row">Monday</th>
+        <td>Math</td>
+        <td>Science</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <th scope="row">Thusday</th>
+        <td>Marathi</td>
+        <td>Hindi</td>
+        <td>Sankruit</td>
+      </tr>
+      <!-- spanning of columns -->
+      <tr>
+        <th scope="row">Wedensday</th>
+        <td colspan="2">Science</td>
+        <td>Social Science</td>
+      </tr>
+      <!-- sapnning of rows -->
+      <tr>
+        <th scope="row">Thrusday</th>
+        <td rowspan="2">Math</td>
+        <td>Social Science</td>
+        <td>Sankruit</td>
+      </tr>
+      <tr>
+        <th scope="row">Friday</th>
+        <td>sport</td>
+        <td>social science</td>
+      </tr>
+    </table>
+    <!-- Table Thead / Body / Footer -->
+
+    <table border="4">
+      <caption>Example of Systematic way to write a code</caption>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Income</th>
+          <th>Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1st January</th>
+          <td>250</td>
+          <td>36</td>
+        </tr>
+        <tr>
+          <th>2nd January</th>
+          <td>285</td>
+          <td>48</td>
+        </tr>
+        <!-- additional rows as above -->
+        <tr>
+          <th>31st January</th>
+          <td>129</td>
+          <td>64</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td>7824</td>
+          <td>1241</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+1
+Which of these methods modifies the original array?
+const emojis = [1, 2, 3];
+
+emojis.map(x => x + 1);
+emojis.filter(x => x !== 2);
+emojis.find(x => x !== 2);
+emojis.reduce((acc, cur) => acc + 1);
+emojis.splice(1, 2, 1);
+Your Answer
+All of them
+Correct Answer
+splice
+Justification
+None.
+2
+What's the output? [1, 2, 3].map(num => { if (typeof num === 'number') return; return num * 2; });
+Your Answer
+[undefined, undefined, undefined]
+Correct Answer
+[undefined, undefined, undefined]
+Justification
+None.
+3
+What's the output? [[0, 1], [2, 3]].reduce( (acc, cur) => { return acc.concat(cur); }, [1, 2], );
+Your Answer
+[1, 2, 0, 1, 2, 3]
+Correct Answer
+[1, 2, 0, 1, 2, 3]
+Justification
+None.
+4
+What's the output? const config = { languages: [], set language(lang) { return this.languages.push(lang); }, }; console.log(config.language);
+Your Answer
+undefined
+Correct Answer
+undefined
+Justification
+None.
+5
+The method in JavaScript returns a sub-array of the specified array.
+Your Answer
+Array.slice( )
+Correct Answer
+Array.join( )
+Justification
+None.
+6
+What's the output? [1, 2, 3, 4].reduce((x, y) => console.log(x, y));
+Your Answer
+1 2 and undefined 3 and undefined 4
+Correct Answer
+1 2 and undefined 3 and undefined 4
+Justification
+None.
+7
+​​What's the output? let newList = [1, 2, 3].push(4); console.log(newList.push(5));
+Your Answer
+Error
+Correct Answer
+Error
+Justification
+None.
+8
+Which of the options result(s) in an error?
+
+const emojis = ['a', 'b', 'c', 'd'];
+
+ 
+
+1. emojis.push('e');
+
+2. emojis.splice(0, 2);
+
+3. emojis = [...emojis, 'f'];
+
+4. emojis.length = 0;
+
+
+
+Your Answer
+3
+Correct Answer
+3
+Justification
+None.
+9
+What's the output?
+const nums = [1, 2, 3];
+
+nums.slice(0, 1)
+nums.splice(0, 1)
+nums.unshift(4)
+
+console.log(nums);
+Your Answer
+[4,2,3]
+Correct Answer
+[4,2,3]
+Justification
+None.
+10
+What will happen if reverse() and join() methods are used simultaneously ?
+Your Answer
+Reverses and stores in the same array
+Correct Answer
+Reverses and stores in the same array
+Justification
+None.

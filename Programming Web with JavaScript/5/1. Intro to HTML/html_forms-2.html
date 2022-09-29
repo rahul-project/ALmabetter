@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms 2</title>
+  </head>
+  <body>
+    <table border="4">
+      <caption>The Target Attribute</caption>
+      <thead>
+        <tr>
+          <th>Value</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>_blank</th>
+          <td>The response is displayed in a new window or tab</td>
+        </tr>
+        <tr>
+          <th>_self</th>
+          <td>The response is displayed in the current window</td>
+        </tr>
+        <!-- additional rows as above -->
+        <tr>
+          <th>_parent</th>
+          <td>The response is displayed in the current window</td>
+        </tr>
+        <tr>
+          <th>_top</th>
+          <td>The response is displayed in the full body of the window</td>
+        </tr>
+        <tr>
+          <th>framename</th>
+          <td>The response is displayed in a named iframe</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3">
+            The default value is
+            <code style="color: red;">_self</code>
+            which means that the response will open in the current window.
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- next form -->
+    <h2>The form target attribute</h2>
+    <p>
+      When submitting this form, the result will be opened in a new browser tab:
+    </p>
+    <form action="/action_page.php" target="_blank">
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" name="fname" value="John" />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <!-- next form -->
+    <h2>The method Attribute</h2>
+
+    <p>This form will be submitted using the GET method:</p>
+
+    <form action="/action_page.php" target="_blank" method="get">
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" name="fname" value="John" />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      After you submit, notice that the form values is visible in the address
+      bar of the new browser tab.
+    </p>
+    <!-- next form -->
+    <h2>The method Attribute</h2>
+
+    <p>This form will be submitted using the POST method:</p>
+
+    <form action="/action_page.php" target="_blank" method="post">
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" name="fname" value="John" />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input type="text" id="lname" name="lname" value="Doe" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      After you submit, notice that, unlike the GET method, the form values is
+      NOT visible in the address bar of the new browser tab.
+    </p>
+    <!-- next form -->
+  </body>
+</html>

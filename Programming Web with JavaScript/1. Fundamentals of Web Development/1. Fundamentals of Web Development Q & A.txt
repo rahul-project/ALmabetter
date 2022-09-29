@@ -1,0 +1,240 @@
+1
+What is Web2.0?
+Your Answer
+The resurgence of internet companies with more interactive focus, such as blogging and social networking
+Correct Answer
+The resurgence of internet companies with more interactive focus, such as blogging and social networking
+Explanation
+None.
+2
+In Internet communication, ‘‘cookie’’ is used for
+Your Answer
+storing authentication information at server side for entire session
+Correct Answer
+storing authentication information at server side for entire session
+Explanation
+None.
+3
+Which of the Following is correct special charecter Code
+Your Answer
+& amp
+Correct Answer
+& amp
+Explanation
+None.
+4
+Payment gateway refers to
+Your Answer
+Networking switch at bank/financial institution
+Correct Answer
+A merchant service authorising payments for e-businesses
+Explanation
+None.
+5
+URL includes
+Your Answer
+All of the above
+Correct Answer
+All of the above
+Explanation
+None.
+6
+Which of the following is included in Visual Studio IDE?
+Your Answer
+All of the above
+Correct Answer
+All of the above
+Explanation
+None.
+7
+How do you create a copy of a lab under your own GitHub account so that you can solve the lab?
+Your Answer
+Forking it via Github interface
+Correct Answer
+Forking it via Github interface
+Explanation
+None.
+8
+Operating systems which involves a GUI-based user interface are
+Your Answer
+all of these
+Correct Answer
+all of these
+Explanation
+None.
+9
+A web page document that is stored in the server but should be run before the result can be retrieved by a browser is called a _______ document.
+Your Answer
+Dynamic
+Correct Answer
+Dynamic
+Explanation
+None.
+10
+What is search engine optimisation?
+Your Answer
+Building a site which has the qualities that search engines look for, which will ultimately get the site a high rank in the listings
+Correct Answer
+Building a site which has the qualities that search engines look for, which will ultimately get the site a high rank in the listings
+Explanation
+None.
+11
+In the URL HTTP://xxxx:yyyy/zzzz, the name of the port is _________.
+Your Answer
+yyyy
+Correct Answer
+yyyy
+Explanation
+None.
+12
+Computer interface that is used by DOS is called
+Your Answer
+command driven interface
+Correct Answer
+command driven interface
+Explanation
+None.
+13
+Which command clears the screen?
+Your Answer
+cls
+Correct Answer
+cls
+Explanation
+None.
+14
+Git is a
+Your Answer
+Distributed version control system
+Correct Answer
+Distributed version control system
+Explanation
+None.
+15
+The acronym IDE stands for?
+Your Answer
+Integrated Development Environment
+Correct Answer
+Integrated Development Environment
+Explanation
+None.
+16
+Which of the following is not a component of IDE…
+Your Answer
+start menu
+Correct Answer
+start menu
+Explanation
+None.
+17
+Which of the following multimedia text-based features generalize the concepts of footnotes and cross-references for accessing text documents?
+Your Answer
+hypertext
+Correct Answer
+hypertext
+Explanation
+None.
+18
+The MS-DOS operating system is a
+Your Answer
+single tasking interface
+Correct Answer
+all of these
+Explanation
+None.
+19
+What are meta tags?
+Your Answer
+Embedded information about your website such as keywords
+Correct Answer
+Embedded information about your website such as keywords
+Explanation
+None.
+20
+What's the git command that downloads your repository from GitHub to your computer?
+Your Answer
+git clone
+Correct Answer
+git clone
+Explanation
+None.
+
+Which of the following is used in GUI…
+Your Answer
+Both a & b
+Correct Answer
+Both a & b
+Explanation
+None.
+22
+Which of the following is not a type of user interface?
+Your Answer
+Both b and c
+Correct Answer
+Both b and c
+Explanation
+None.
+23
+We can define ____ number of sites with one copy of VS code installed in our computer
+Your Answer
+Unlimited
+Correct Answer
+Unlimited
+Explanation
+None.
+24
+What is syntax?
+Your Answer
+Syntax is the rules of the programming language
+Correct Answer
+Syntax is the rules of the programming language
+Explanation
+None.
+25
+What's the opposite of git clone, instead of downloading your code from GitHub, uploads your changes and code back to GitHub?
+Your Answer
+git push
+Correct Answer
+git push
+Explanation
+None.
+26
+Which of the following is not true about git
+Your Answer
+Pull operation copies the changes from a local repository to remote repository
+Correct Answer
+Pull operation copies the changes from a local repository to remote repository
+Explanation
+None.
+27
+How do you stage files for a commit?
+Your Answer
+git add
+Correct Answer
+git add
+Explanation
+None.
+28
+Which command will change the current working directory in the command prompt?
+Your Answer
+cd
+Correct Answer
+cd
+Explanation
+None.
+29
+Which connection is opened and closed during a session in FTP?
+Your Answer
+Data
+Correct Answer
+Data
+Explanation
+None.
+30
+HTTP is
+Your Answer
+Secured
+Correct Answer
+Request-Response Protocol
+Explanation
+None.

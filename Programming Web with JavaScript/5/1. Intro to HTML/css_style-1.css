@@ -1,0 +1,36 @@
+/* Selector	                Example	        Example description
+    #id	                    #firstname	    Selects the element with id="firstname"
+    .class	                .intro	        Selects all elements with class="intro"
+    element.class	        p.intro	        Selects only <p> elements with class="intro"
+    *	                    *	            Selects all elements
+    element	                p	            Selects all <p> elements
+    element,element,..	    div, p	        Selects all <div> elements and all <p> elements
+ */
+/* specificity of css in selector
+order which run first
+id = most  */
+body {
+  background-color: hsl(222, 50, 50, 0.5);
+}
+a[href*='selectors'] {
+  color: rgb(0, 255, 217);
+}
+[href] {
+  color: #a98111;
+}
+h2:hover {
+  color: #fff;
+}
+.ParentChildRel {
+  color: blue;
+}
+.descendent {
+  color: hsl(360, 100, 50%);
+}
+/* hue saturation lightness HSL */
+.maindiv p {
+  color: orange;
+}
+h1 {
+  background-color: hsla(240, 100%, 50%, 0.5);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="time_span" onclick="myFunction()">Click me to check a time</h2>
+
+    <!-- Button click -->
+    <!-- <h3 id="demo" onclick="myFunction()">Click me to check a time.</h3> -->
+
+<!-- javascript -->
+    <script type="text/javascript">
+    function myFunction() {
+
+    var currentTime = new Date()
+    var hours = currentTime.getHours()
+    var minutes = currentTime.getMinutes()
+    if (minutes < 10){
+        minutes = "0" + minutes
+    }
+    var t_str = hours + ":" + minutes + " ";
+    if(hours > 11){
+        t_str += "PM";
+    } else {
+       t_str += "AM";
+    }
+    document.getElementById("time_span").style.color = "blue";
+    document.getElementById('time_span').innerHTML = t_str;
+    // document.getElementById("demo").innerHTML = t_str;
+}
+ 
+    // Alert box with line-breaks:
+    // alert("Hello\nHow are you?\nyou want to see time");
+    // // Alert current Time Update:
+    // alert( document.getElementById('time_span').innerHTML = t_str);
+    // // Alert the hostname of the current URL:
+    // alert(location.hostname);
+    
+    </script>      
+</body>
+</html>

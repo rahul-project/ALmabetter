@@ -1,0 +1,219 @@
+# Module 1 - Programming Web with JavaScript
+
+Chapter 1 - Fundamentals of Web Development
+
+- Program Orientation - Team Development etc.
+- What is full stack web development?
+- Basics of Internet and Web
+- Intro to VS Code IDE
+- Intro to CLI  and Linux
+- Intro to Git and GitHub
+
+Chapter 2 - JavaScript Fundamentals
+
+- Introduction to JavaScript
+- JavaScript Strings and Literals
+- Arrays in JavaScript
+- Collections
+- Decision Making in JavaScript
+- Loops and Iterations
+- Self Project - Coding Practice
+
+Chapter 3 - Functions and OOP Programming
+
+- Functions in JavaScript
+- Asynchronous basic
+- Debugging and Error handling
+- Intro to OOP
+- Functional Programming
+- Unit Testing
+- Lodash - JS Utility lib, Luxon - Datetime library
+
+Chapter 4 - Algorithm Training
+
+- Space and Time Complexity
+- Stacks and Queues
+- Recursion
+- Sorting Techniques
+- Search Algorithm
+- How to write clean code
+
+
+# Module 2 - Frontend Development
+
+Chapter 1 - Introduction to Web 
+
+- Understanding HTTP
+- Browser and Server
+- Intro to HTML
+- Intro to CSS
+- CSS Layouts and Debugging
+- Guided Project - Building a web page, Git Advanced
+
+Chapter 2 - JavaScript on the Browser
+
+- HTML and DOM
+- DOM Manipulation
+- DOM Events
+- Asynchronous Communication
+- Introduction to jQuery
+- Guided Project - Calculator, CI/CD
+
+Chapter 3 - Introduction to React Ecosystem
+
+- React Basics
+- Virtual DOM concepts
+- Reusable UI Components
+- Frontend Build
+- Building a SPA
+- UI Libraries - Material UI, Tailwind
+
+Chapter 4 - Advanced React
+
+- Hooks
+- State Management and Optimization
+- Redux
+- Asynchronous Technique
+- UI Unit Testing
+- Guided project
+
+Chapter 5 - Mastering UI and UX
+
+- Web Animations
+- Advanced CSS
+- Web Service Application Architecture
+- Mobile Web
+- UX Programming
+- Performance and UXable Technique
+
+Chapter 6 - Building responsive web apps
+
+- Progressive Web Apps - I
+- Progressive Web Apps - II
+- Building a responsive web page
+- Building a responsive web page
+- Deploying your first web app
+
+**Capstone Project**
+
+
+# Module 3 - Backend Development
+
+Chapter 1 - Databases
+
+- Introduction to Database
+- Intro to relational database
+- My SQL - I
+- My SQL - II
+- My SQL - III
+- Guided Project
+
+Chapter 2 - Node.js and Express.js
+
+- Introduction to Node.js
+- Async Operations
+- Express.js - I
+- Express.js - II
+- ORMs
+- Logging and Monitoring
+- Guided project - Creating an API
+
+Chapter 3 - Microservices
+
+- Monolith vs Microservice
+- Containerization
+- Docker
+- Basic and Token Authentication, JWT
+- OAuth
+- Guided project - Deploying mutliple services
+
+Chapter 4 - MongoDB
+
+- MongoDB - I
+- MongoDB - II
+- ORMs - I
+- ORMs - II
+- Different types of non-relational databases
+- Guided project - Design some non-relational database
+
+**Capstone Project**
+
+
+# Module 4 - System Design
+
+Chapter 1 -  System Design Basics
+
+- Scalability, Performance
+- Latency vs throughput
+- Availability vs consistency
+- DNS and CDNs
+- Load Balancer and Reverse proxy
+- Database design
+- Cache, asynchronism
+- HLD and LLD
+- Guided Project - Design a parking lot
+
+Chapter 2 - OS and Networking Fundamentals
+
+- How OSs work in general
+- Process and Thread Management, Concurrencies
+- Memory and I/O Management
+- Basic Networking Concepts - OSI Layer
+- Internet Protocols - HTTP, UDP, TCP, IP
+
+Chapter 3 - Cloud Services
+
+- Intro to Cloud Services - AWS, GCP, Digital Ocean
+- EC2
+- S3
+- Lambda
+- API Gateway
+- Dynamo DB
+
+Chapter 4 - Advanced DSA
+
+- Trees & Heaps
+- Greedy Algorithms
+- Dynamic Programming
+- Graph Theory - I
+- Graph Theory - II
+
+**Capstone Project**
+
+Chapter 1 - Introduction to Blockchain Technology
+
+- Origin of Blockchain - Money, Ledgers and Bitcoin
+- Blockchain Basics
+- Intro to Cryptography and Consensus
+- All about Ethereum and layer-1 solutions
+- Node Software
+- Wallet, Contracts and Transactions
+
+Chapter 2 - Blockchain Cryptography and the Ethereum Virtual Machine (EVM)
+
+- Digital signatures and cryptographic hash functions
+- Merkle trees and block headers
+- Consensus Algorithms - Proof of Work (PoW) and Proof of Stake (PoS)
+- Solidity Syntax, development Tools and basic Testing
+- Writing tests with Hardhat and Waffle, setup fixtures
+- Mocking contracts, formal verification, debugging
+- OpenZeppelin, ownership, upgradeability, pausing, mainnet forking
+
+Chapter 3 - Building React dApps
+
+- **‍**Indexing blockchain data with subgraphs
+- React dApps
+- Connecting to metamask
+- Alerting and Scripting
+
+Chapter 4 - Ethereum Tokens, NFTs and DeFi
+
+- Token standards
+- Approving and transferring
+- Loss of coin and token callbacks
+- Stablecoins
+- Decentralized Exchanges
+- Liquidity providers
+- Staking, lending and price oracles
+
+**Capstone Project :** Build an end-to-end dApp
